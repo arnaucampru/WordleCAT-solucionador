@@ -10,7 +10,7 @@ Abans d'executar el fitxer .py, cal canviar la ruta en la línia 17.
 Cada vegada que s'ha de fer un input corregint la paraula que el programa et dóna, cal tenir en compta que:
 - 'b': la lletra està ben colocada
 - 'm': la lletra no apareix en la paraula secreta
-- - 'c': la lletra apareix en la paraula secreta però està mal colocada.
+- 'c': la lletra apareix en la paraula secreta però està mal colocada.
 D'aquesta manera, si la paraula a resoldre és 'OVNIS' i el programa diu que provem amb 'VELAS', el nostre input al programa hauria de ser: 'cmmmb'.
 
 # Problemes a millorar:
