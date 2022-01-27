@@ -1,16 +1,16 @@
 Programa en Python que soluciona el joc català 'WordleCAT' (https://gelozp.com/games/wordle/).
 
 # Descripció de cada arxiu:
-wordle_solver1.0.py: versió incial del projecte
-DISC2-LP.txt: 'Diccionari Informatitzat de l'Scrabble en Català, versió 2.7.15 - 27/09/2019'
-DISC2-LP (5 letters).txt: filtratge del diccionari amb paraules de 5 lletres
+- wordle_solver1.0.py: versió incial del projecte
+- DISC2-LP.txt: 'Diccionari Informatitzat de l'Scrabble en Català, versió 2.7.15 - 27/09/2019'
+- DISC2-LP (5 letters).txt: filtratge del diccionari amb paraules de 5 lletres
 
 # Descripció del funcionament:
 Abans d'executar el fitxer .py, cal canviar la ruta en la línia 17.
 Cada vegada que s'ha de fer un input corregint la paraula que el programa et dóna, cal tenir en compta que:
-   - 'b': la lletra està ben colocada
-   - 'm': la lletra no apareix en la paraula secreta
-   - 'c': la lletra apareix en la paraula secreta però està mal colocada.
+- 'b': la lletra està ben colocada
+- 'm': la lletra no apareix en la paraula secreta
+- - 'c': la lletra apareix en la paraula secreta però està mal colocada.
 D'aquesta manera, si la paraula a resoldre és 'OVNIS' i el programa diu que provem amb 'VELAS', el nostre input al programa hauria de ser: 'cmmmb'.
 
 # Problemes a millorar:
